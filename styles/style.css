@@ -69,7 +69,6 @@
   font-size: 100px;
   font-weight: 700;
   color: white;
-  line-height: 100px;
   z-index: 0;
   line-height: 115%;
   letter-spacing: 0.3em;
@@ -157,6 +156,7 @@
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -195,10 +195,11 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
-  text-underline-position: under;
   text-transform: uppercase;
-  text-decoration-thickness: 1px;
   color: #FFFFFF;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
 }
 
 .card__text {
@@ -287,11 +288,10 @@
 .address {
   font-style: normal;
   max-width: 264px;
-  justify-self: end;
+  justify-self: start;
   font-size: 18px;
   text-underline-position: under;
   line-height: 24.3px;
-  justify-self: start;
 }
 
 .footer__menu-list {
@@ -305,11 +305,11 @@
   text-underline-position: under;
 }
 
-.footer__menu-link_active .footer__menu-link{
+.footer__menu-link_active .footer__menu-link {
   text-decoration: none;
 }
 
-.footer__social-list{
+.footer__social-list {
   display: flex;
   gap: 48px;
   margin-left: 96px;
